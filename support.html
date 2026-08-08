@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support – Sketch Press</title>
+<meta name="description" content="Support and contact information for Sketch Press.">
+<style>
+  :root{
+    --paper:#F5F0E8; --paper-dark:#EDE8DA; --grid:#D5CCB8;
+    --ink:#1E1A17; --ink-mid:#4A3F36;
+    --gold:#B7950B; --gold-dark:#8A710A; --gold-light:#F4D03F;
+    --mono: "SFMono-Regular", Menlo, Consolas, "Roboto Mono", monospace;
+    --body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background-color:var(--paper);
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size:26px 26px;
+    color:var(--ink-mid);
+    font-family:var(--body);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:28px 16px 64px;}
+  .card{
+    background:var(--paper);
+    border:2px solid var(--ink);
+    border-radius:8px;
+    box-shadow:4px 4px 0 var(--ink);
+    padding:36px 40px 44px;
+  }
+  @media (max-width:600px){
+    .card{padding:26px 20px 34px;box-shadow:3px 3px 0 var(--ink);}
+  }
+  nav.top{
+    display:flex; align-items:center; justify-content:space-between;
+    gap:12px; flex-wrap:wrap; margin-bottom:22px;
+  }
+  .brand{
+    font-family:var(--mono); font-weight:700; letter-spacing:3px;
+    color:var(--ink); text-decoration:none; font-size:14px;
+  }
+  .brand span{color:var(--gold-dark);}
+  nav.top .links a{
+    font-family:var(--mono); font-size:12px; letter-spacing:1px;
+    color:var(--ink-mid); text-decoration:none; margin-left:16px;
+  }
+  nav.top .links a[aria-current="page"]{color:var(--gold-dark); font-weight:700;}
+  nav.top .links a:hover{color:var(--gold-dark);}
+
+  h1{
+    font-family:var(--mono); font-size:26px; font-weight:900;
+    letter-spacing:1px; color:var(--ink); margin:6px 0 4px;
+  }
+  .updated{font-family:var(--mono); font-size:12px; color:var(--ink-mid); opacity:0.85; margin:0 0 20px;}
+  .rule{height:2px; background:var(--ink); border:none; margin:0 0 28px; opacity:0.9;}
+
+  section{margin-bottom:30px;}
+  .sec-head{display:flex; align-items:center; gap:12px; margin-bottom:10px;}
+  .sec-num{
+    font-family:var(--mono); font-size:12px; font-weight:900;
+    background:var(--gold); color:var(--paper);
+    border-radius:5px; padding:3px 8px; letter-spacing:0.5px;
+    flex-shrink:0;
+  }
+  h2{
+    font-family:var(--mono); font-size:15px; font-weight:800;
+    letter-spacing:0.5px; color:var(--ink); margin:0; text-transform:uppercase;
+  }
+  h3{font-family:var(--body); font-size:15px; font-weight:700; color:var(--ink); margin:14px 0 6px;}
+  p{margin:0 0 12px; font-size:15px;}
+  ul{margin:0 0 12px; padding-left:22px;}
+  li{margin-bottom:5px; font-size:15px;}
+  strong{color:var(--ink); font-weight:700;}
+  a{color:var(--gold-dark); text-decoration:underline; text-decoration-color:rgba(138,113,10,0.4);}
+  a:hover{text-decoration-color:var(--gold-dark);}
+  a:focus-visible, button:focus-visible{outline:2px solid var(--gold-dark); outline-offset:3px; border-radius:2px;}
+
+  .callout{
+    background:var(--paper-dark); border:1.5px solid var(--grid);
+    border-radius:6px; padding:14px 16px; margin:14px 0;
+  }
+  .callout p{margin:0; font-size:14px;}
+
+  footer{margin-top:36px; padding-top:20px; border-top:1.5px solid var(--grid);}
+  footer p{font-size:13px; color:var(--ink-mid); margin:0 0 6px;}
+  .email{font-family:var(--mono); font-weight:700; color:var(--gold-dark);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+
+    <nav class="top">
+      <a class="brand" href="./">SKETCH<span>PRESS</span></a>
+      <div class="links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="support.html" aria-current="page">Support</a>
+      </div>
+    </nav>
+
+    <h1>Support</h1>
+    <p class="updated">Last Updated: August 6, 2026</p>
+    <hr class="rule">
+
+    <section>
+      <div class="sec-head"><span class="sec-num">01</span><h2>Welcome</h2></div>
+      <p>Thanks for playing Sketch Press! Draw lines to bounce, tap to jump, and see how far you can push your run. This page covers common questions and how to reach us if something isn't working right.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">02</span><h2>Need Help?</h2></div>
+      <p>If you run into bugs, crashes, drawing or input issues, or have any other questions about the app, reach out anytime.</p>
+      <p><strong>Email Support:</strong><br><span class="email">sketchpressapp@gmail.com</span></p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">03</span><h2>Common Issues</h2></div>
+
+      <h3>Lines not drawing, or the ball not bouncing correctly?</h3>
+      <ul>
+        <li>Make sure you're drawing clearly within the play area</li>
+        <li>Try restarting the app</li>
+        <li>Make sure you're on the latest version from the App Store</li>
+      </ul>
+
+      <h3>High score or coins not saving?</h3>
+      <ul>
+        <li>Sketch Press saves your progress locally on your device — avoid clearing the app's storage, and make sure your device has free storage space</li>
+        <li>Reinstalling the app resets local progress, since nothing is stored in the cloud</li>
+      </ul>
+
+      <h3>"Watch Ad" button stuck loading or greyed out?</h3>
+      <ul>
+        <li>Ads need an internet connection — check that you're online</li>
+        <li>A brand-new ad placement can occasionally take a little while to become available; try again shortly</li>
+        <li>Ads may be limited in Airplane Mode or with a very weak connection</li>
+      </ul>
+
+      <h3>App crashing or freezing?</h3>
+      <ul>
+        <li>Close and fully reopen the app</li>
+        <li>Restart your device if the issue continues</li>
+        <li>Install any available app updates</li>
+      </ul>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">04</span><h2>About Rewarded Ads</h2></div>
+      <p>Sketch Press uses optional, opt-in rewarded ads — for reviving, doubling coins, and earning free coins from the Shop — served by Google AdMob. You'll never see an ad unless you choose to tap "Watch Ad"; nothing plays automatically.</p>
+      <div class="callout">
+        <p>If an ad doesn't load, it's almost always a temporary network or ad-availability issue — not a bug with your progress. Your coins and high score are unaffected either way.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">05</span><h2>Privacy &amp; Safety</h2></div>
+      <p>Sketch Press has no account system and doesn't collect personal information directly. For details on what Google AdMob collects to serve ads, see our <a href="privacy.html">Privacy Policy</a>.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">06</span><h2>Feature Requests &amp; Feedback</h2></div>
+      <p>Got an idea for a new ball skin, theme, or feature? We'd love to hear it — email us anytime with suggestions or feedback.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">07</span><h2>Response Times</h2></div>
+      <p>Support requests are typically answered within a few business days, though response times may vary depending on volume.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">08</span><h2>Contact</h2></div>
+      <p>For all support inquiries:</p>
+      <p class="email">sketchpressapp@gmail.com</p>
+    </section>
+
+    <footer>
+      <p>Thanks for playing Sketch Press!</p>
+      <p>Sketch Press · <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+
+  </div>
+</div>
+</body>
+</html>
